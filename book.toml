@@ -1,0 +1,6 @@
+[book]
+authors = ["zenith391"]
+language = "en"
+multilingual = false
+src = "src"
+title = "A Zig Book"
