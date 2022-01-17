@@ -101,13 +101,14 @@ Making `main()` public (using `pub`) is necessary because the Zig standard
 library, which is another source file will do *magic* in order to make your
 `main()` function works. And in order to do that, it needs to access your
 main function.
---
 
+<div class="box-information">
 Currently, the Zig compiler requires you to use spaces instead of tabs
 and Unix line return (LF). On most editors, you can configure this in
 the status bar (near the lower right-hand corner). If you use Notepad,
 you can get a new editor like Notepad++ or Visual Studio Code, those are
 free.
+</div>
 
 To see if this works, we must save this in a file, that could be named `hello.zig`.
 Then we compile and run it using the `zig` command like the following:
